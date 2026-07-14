@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-mongoose.connect("mongodb://localhost:27017/todoticket")
+mongoose.connect("mongodb+srv://Saez:<db_password>@clusterpersonal.gaqcbcz.mongodb.net/?appName=ClusterPersonal")
 
 const connection = mongoose.connection;
 
